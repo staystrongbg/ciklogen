@@ -1,0 +1,129 @@
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  margin: 40px 0 40px 0;
+  /* border: 1px solid red; */
+}
+
+/* Create four equal columns that sits next to each other  STAVI PO DVE DA BUDU U REDU*/
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  /* margin-top: 8px; */
+  vertical-align: middle;
+  width: 100%;
+}
+/* modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  /* transform: translateX(-100%); */
+  visibility: hidden;
+  z-index: 0;
+  background-color: #000;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  transform: scale(0);
+}
+
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+  /* opacity: 1; */
+  transform: scale(1);
+  /* transform: translateX(0); */
+}
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+}
+.close-modal:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.modal-img {
+  height: 100vh;
+  width: auto;
+  /* transition: all ease 0.3s; */
+}
+.gridImg {
+  cursor: pointer;
+  /* border-radius: 0.5rem; */
+}
+
+/* media querry for different screen sizes */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    /* padding-bottom: 4px; */
+  }
+  .modal-img {
+    width: 100vw;
+    height: auto;
+  }
+}
+.btns {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #f3f3f3;
+}
+.btn {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  border: none;
+  background-color: transparent;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-height: 600px) {
+  .modal-img {
+    height: 100vh;
+    width: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      padding-bottom: 4px;
+    }
+    .modal-img {
+      width: 100vw;
+      height: auto;
+    }
+    .story {
+      width: 100vw;
+    }
+  }
+}

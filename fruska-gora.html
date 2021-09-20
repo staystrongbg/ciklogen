@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/story.css" />
+    <link rel="stylesheet" href="./css/resp_img.css" />
+
+    <title>ciklogen adventure crew</title>
+  </head>
+
+  <body>
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header"></div>
+      <div class="links"></div>
+    </aside>
+    <!-- //WORK IN PROGRES
+//ovo su test linkovi
+//treba da stoje linkovi ka ABOUT page, CONTACT page, BIKELIST page
+//About page sadrzi podatke o biciklistima
+//Bikelist -||- o bajsevima-->
+    <!-- end of sidebar -->
+    <!-- header -->
+    <div id="home" class="header-content"></div>
+    <!-- end of header -->
+    <!-- MODAL IMAGES -->
+    <div class="modal-overlay">
+      <img class="modal-img" />
+      <!-- modal controls -->
+      <div class="btns">
+        <button class="btn left">
+          <i class="fas fa-angle-left"></i>
+        </button>
+        <button class="btn right">
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+      <!-- modal controls end-->
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="date"></div>
+    <!-- story section -->
+    <section class="story">
+      <a href="#home" class="go-up">
+        <i class="fas fa-chevron-circle-up"></i>
+      </a>
+      <div class="intro"></div>
+      <div class="story-text">
+        <span class="author"></span>
+        <p></p>
+      </div>
+      <div class="story-text">
+        <p>
+          <span class="dropcap">T</span>he best climb is of course subjective.
+          As I’ve noted before in this blog post, mountain climbs are a personal
+          experience and every climb can deliver multiple experiences depending
+          on the weather, your legs, your state of mind. The climb.
+        </p>
+      </div>
+      <div class="row">
+        <img
+          class="gridImg"
+          alt=""
+          src="https://lh3.googleusercontent.com/SDCRdn8N252s3NXbc1Ie66av2AUdmDBM6VfJs-pWg71qWYAcYxhLkK51J7R3h7hggqW1ani7_-dt4jlRFCqz5r61QIwLQy6DuC6K4s0VvEFd-E11JQvRzEH6XYjPJMigas4j-m6-LImvR2-QNf5zHo_R7ICzGo6MGbo0-Tj1jXXrDGBlN8YeeywK5xMUycIkqGd5eZ8pbRfXfuz2KQ3lVgjp4UumOvNgwC6D6i8jAsS9scqluf0A88QpnvT_O7yxyLc-w4gu5Wv-4E0utp1ylowODRVe0emU6n-R3QopYjjDZcJrYowBImoDcIQ7JePfpxXWln1TBZ_65rw37aK1LI4S_o1k8wIwINk66jgfmF5RNH6c17Mn9hlmLZO854fu3B6GMvTLgIyH5wzhHMLX4a48WRPJgJzQfdaxSXx4EyLwCh-pRkiSQV-19OgFzf7RMO0OI561845D32m66njwy0f44SVKiDaIqw9QSt2k_t1puLNJmKG6STr-JA6P5J2b-4x7D_tPX2NTDEFbiSqlSYP2CL8m98k-shzCoakMilaODFXi8PjI-FePtFxufeOT7JGCQyAPOYmYxdG-v2pbLfl03V0YbPC5b0KgRVt8RHwBE_X1v32flxOnlH_zTmINwNyNCwuMk9JFE7C06UF4sVC-GjZFTXpb6lOMZpu89RsUlOqfs_EYCSTUdISSMuPIOiUVZfFyTWd8w6LP3MOpOVY=w1264-h948-no?authuser=0"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="story-text">
+        <p>
+          The best climb is of course subjective. As I’ve noted before in this
+          blog post, mountain climbs are a personal experience and every climb
+          can deliver multiple experiences depending on the weather, your legs,
+          your state of mind. The climb.
+        </p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/7PW9JsWdXLEaZCIbuANTN7ZUyxs_yINI7_ETMuIZwQsiLiHjTHzeoO74t3vqFh7SuQ5rtCdzJjEP400y0gtD314KVgcuqOcrhbCul6eGzjNXxhpUcqNKT5VepLivtPfjiYSGa88I7AUuAYKPutmckdwCLrP3dKnevMLizyTb9zNDHv-YU4elFs6qJtGdK-VTkhrveGFY3LvxQZ2dcPZKnNFW4uoArFNg05bUJk_C_M7bI4SC7kpx4GnhF2km09DUAPiOFYbxlHvvX_CMUl0e9c-CbNXMCW2wvik7rDHHRJVXQIc0gonuYDovyICMsUivT6waEUDS-Yh9adcGgGWBOEAJVFXnZ3R583SmH5BP16ums86vO960haKm49E7eBea0csWsXiwTETDsgZ9gtERLVI6Cl6OhnUH0jNa2b1GfO8MIzTZcOF3vNxLK8COraFhoWnPkuwMw6wt8DdLt1d7KZ4JHiDtMeJuMgNK92DQY9IttI06kJiF1SdxX703bgtfo-KZ5cTq1sx6f4KrYJvIjDfzgk3KKtOECxvGKymmrV2hiKLnwyy8riWChQfJRFWvDfpC3kHOMFMkno1W-KwNpojTrQEoIwF4r39e3j8o_rXXobUKL5Bi1KF4ZALuEpO_SjIFStHMKgupFQnoSCNsirT50gGmj0kbNguEXnVm2jtkADVda4gvF9hDsyt4ns2Rh-G7VUfkxaDyCeAn5JXw7ok=w1264-h948-no?authuser=0"
+            style="width: 100%"
+          />
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/ol3a3_J7wNoImKk1BGlqZZuOLKbmThgFzG-yoauE-o40fApRkilmldmvTyc4eWk9HIYx-Jc1xUQpxg0Y-ZQSUjWfbeBQeyPBxusybzAALNEtJpuNFSHVlGODr2uPREWejCMbP-mZ065APG5NYaz8IqCulSIGhWlEo2pIWTxU2llsXBGHKlH2ICpckzkstcnjaHiGhzAeOnSYcX_M2w-r7s4ePAE9ENuA3WJhYmHZg5-cKGlQIKkkYNEb4BXH0wxyVenaz-E3r10bTWrRPl90ozdd26YEQQE4jN_gQasxhwhY0FZHy19yOnAoKR3_miAUmHw0JWF0uNq8UymaoS8V4RY8Ua-h-pL_f_hdePn5zglcsf1E5Ca9jx5w8_TmAu0e_MsmHP_l-mQoGk3nfBaZeUMprjuHk3OucuxfWY_RcYqeNSBsAnoc6u3EorP8s3UBiY9Wpyz1QQbr9IsJXAPxcypOxCZ-su1JpDDOluG9kT3hcudI1YUCW9n30lcPmDJ_LQV6izJ6yNA28ZkhwHkD8x44j7KMb4A4qzCMj4w45q6xPWKKJRUlakV2UMUy_vQkuKXvW5txTMLZnD6GcKGpHc0O9Xgjb0SnWZHfz6EKo-YZtBeFOx5QgGt4OVXjtPXR727MttoXknlRORlsum50zink2R74slDMM8uzQDv6Nkhjf3CpRxCo9eg3gHUl3VoLdGKVzN49BJR5RZVwkLlHqis=w1264-h948-no?authuser=0"
+            style="width: 100%; padding-top: 7px"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/yYwD2zxxMHDyZOUlUO09Nwuv2aMoTao9Ro2u4z69LrYyUVYe8dS0lYdc37-HmubovF41jgOpI-54tibF40_I2cOTbAFz5HqjRIiM2RzJVEG5BxvkSByPo-BAxBVWv4mEq1bgESAiRyOPaHmklszupp7zdPnIU2OSLAzhvQrc-HEINRdd5BzBnnf-Qps_xUjoborS8xjS9jwY-J6fDqk8N7lFtNFfdcp795hR89FfiePNtgcew_8NU195TqEJQphPzg5e9Ukyi57jjbvk-gyATRh5EBRX502mNQtBG3xcjHeikWS2-vYuJiricrX7Qq1i0mM2alaYpy1qwcFVyAJR3EkWudu8WVi2O1A0HOMX_WZMJUohL_Y53Pb4G-d0FHlh3Hs7hHlPxjw97zDlLjvMVnB2eA4NY4lAED5RkZwHxtaVN3oK3wk1qh4hIN6-HJkJr33iX944yoAC0NKaI6VCqWVK0FR4FCujkJlcmwlw1t8_esuxrr6Kjq4zvaaqTFfFBK2vNEd3ZxCTbY_vPfn00UL3MYah1F1CYnjTSDiLV_IgocDJ_DtOI3XpneZ3q23yk-XL9gtkJRZdwMIgMOEij2KbssGifbH-zsD4LVzotryVaBJ-pnclqWapqJpmPNhu5pVx5oszFekcNVeB6uZur4FMHw62JrUUfoeRQMl8PpdCLPbk9QUduwy2SpPwS-7i3a6LZ2-9qsp3wmYums-kid8=w711-h948-no?authuser=0"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <div class="story-text">
+        <p>
+          A babbling river beside you, ice cold snow melt free after a winter
+          frozen in captivity, rushing down the mountain as if there will be no
+          tomorrow. That’ll be you later. First, I compete against myself and
+          against the hill, not others. Every passing year is a vain (in both
+          senses of the word) fight against time, decay and deterioration. Age
+          is not kind to the hill climber. VO2max declines by 1% every year, our
+          maximum heart rate slows, our muscles weaken and recovery takes
+          longer.
+        </p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/uFnBbfDB-PWiLkDiaiu04p-PNHz744lna6s7pWaFzJJGv45dDwcH9SPOIfL9KMpW371ZfiJYav55WPFcgcdaAFqMB_4V9A9il0vY2MoDA8u06RTNFpmOrbX6hy4K9rPE0H_Eqj3JxqeSdGsQvNewdry-033PeKAQO9gVHL13P8lcwkYbzq836WRxHL-3Oj350nVQwK4IGKv2ok9142agG72nIzwQMz0YR1FaFfzZX9DN9y0Yka4nZZ0mxnFpwQR2hMM2OeRSo-tdyjgNbfeb-wcxEoViUwrhVlgKi7Hp0NvXC_8ILWuyvC8kQvojmJlr2Eke53d-zL0dVm8jvwWD7j57eAcqVmpGkDETzTWhANWd5t3QP50wYDD2TSegkatE0U74zCfipw6IBAOVn78PrJxSKNuHcukQpiYTyDTkg2kHzkRTdSwc1DHIi4nycPk5OAqNe6hlxR0nYlqKzVSMt9hxlDuyHley43bbwxbLAGqizOMIPmehq5qeuZj2qU3ISrCB7DOed17oyrQUMCt0ufcj8ORkDtGg7ocgx9o6A89EoR4Gba-pN4lIXk3ehKCzaZvXe66IcE2UL7FbJk8bmgB1MLr8Ia11q2ZtIFA6Y0exeqF6ZvmKPG66a8H2zzHfFuDweLN1S1HKIO3v830qg5btkt2KzYn-uac96c1rSXzMPaMETjKTT8yLyMCb66Hv8J0nUAiMihSXQZa99OmVXT0=w477-h358-no?authuser=0"
+            style="width: 100%; padding-bottom: 7px"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/Tdd6snpFmwtXE0Dzi8vLXHgs70na9XiP1V-iNWJy5gd-8SFozKTlAL_AAcszdCxorKn39Vs3ozqKBzQjEPm4nOm072V7OFOKXThWlZOX4qpsa00lOKxbf2S7uwxV4xtmYC9FmKMNzRuMfA0F3nZ1FEovbYNBgikYmD_4hML-oD5gVf4PsDX65_ySNS1v-OxFKvr7pQ3wQYy9SAKYm7OOHEx41TVLTiLipjXCtztakZmN8vR48wFFNAQ4NBd_mTJT6JZqaydoEWwjA8Gmtml7v3adVEnNipQyn_iYfAuwhdyygXyy2NgioOSmd_GZhMBoczX9HuYntMwd4SxrY_l0YuHKUK-mJBJwauWJ5HH-dzyxvGm9Q28IHUoHLTo1JUeOPMkTmtHW_svFRIsFJr-nbVO5x4USmf8t4o4y5XuY6Gv4adJ6ibw5aVqLWgtB4gRDTLFs3RUTfMaG2hn02h97GgQdON4xxC2Ts2qn5nzLHz30ke5jb3BrPDY07qeKW6ZCfEFuUXRtQAP-DCT5daSMxKdNvkqgo7liLKazqfFj0dvh9W0smfeVpOcFzE8ZU7LiEg_voTvHrN8YjBhLqFFL5dGw1BJcPwlKkhM_0HRYflGwH1rqIuXgnfJXllOT_7z_vXqwiXr7a0oZjOPCo334rebGkcsJulgiBEcMqv0OzgFcTPfaamZnEDruaYl7vHf0Xi6CHU7b3KInE7hohS-wCsc=w1264-h948-no?authuser=0"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <div class="story-text">
+        <p>
+          A babbling river beside you, ice cold snow melt free after a winter
+          frozen in captivity, rushing down the mountain as if there will be no
+          tomorrow. That’ll be you later. First, I compete against myself and
+          against the hill, not others. Every passing year is a vain (in both
+          senses of the word) fight against time, decay and deterioration. Age
+          is not kind to the hill climber. VO2max declines by 1% every year, our
+          maximum heart rate slows, our muscles weaken and recovery takes
+          longer. mountain as if there will be no tomorrow. That’ll be you
+          later. First, I compete against myself and against the hill, not
+          others. Every passing year is a vain (in both senses of the word)
+          fight against time, decay and deterioration. Age is not kind to the
+          hill climber. VO2max declines by 1% every year, our maximum heart rate
+          slows, our muscles weaken and recovery takes longer.
+        </p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/Q6ACcXgzAZuL5MA7VqJrwpJYAQIExUCmf7m1QD9Hru2gvcjoL4pWIf9bTHTt4FJ0LIG3y3CxNYNMspLoR2Rg_E03BcsIWvjTiYQvGXHlVRvOtg1KE4dUFuULPWU40IwQ1Ia4NBB1pbBqGojQOdKUkt84a0eBn771E5B9oG31XtBS-YA6CNQwGDVgvV6cl4yPHIjEDHqQhYh00yfP_IOyHkSiKYBMV51oTmF-2BoAdfqtIsKT5yzYvPKucCEyPwWTNrdH_IkGvzgrTvCJ8cDlXfTojx5hsjXyvL7EcgyZYwI2CwONIb8MfG0eshJn-CHSS1lhBuP6FVhnXQTxxbwMZN0hFnMRCk1cBnu4B2xWC-Jr2IAbaORjZkDbEnERuYV3KWrJPpN4dwaNjO0-pRBGyBpkuIzIQMlJHCZQROwxd9SkL6HY3CDY4YQuyT5wL3uOxvV1P21_1dbbzC4wO1bP0-nM1aNG0Smaqu61dt5nqBl6BA9uUhbz05J2aEJWIv1W1q3f6cdN0liyjza39uuBchJppGkdQ-a_d9BkUzxTl67iUQpQhu9JuK8xKMXnSjEc5Wg3pOGTeZPVvBXw9SNBKrmxDqvHPq_-nlEzXugkBWOEiX7u87YJzvA67Xo3LIfP-G8BGWSDgW00CWfZAWZ7BT4DQAE_ySstK02PQmcR_OLrQ8GbcpwC9YZRO6HslmrPiN6lnbGq9Y1JHKuoCDxnnPQ=w1264-h948-no?authuser=0"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="gridImg"
+            alt=""
+            src="https://lh3.googleusercontent.com/DkyS3AmF9V6AXd9AkTrzVmbJLzBLRsnbBXlszOR57bNb38TKMgwdKxm9G4OMRmp1Kko8s2pTiI1wVr3E27YxrnGuMq2-0CAdh0wMqQi93vMUiM67dguK2j-R8oto7laphL4wcOcM0IO27l7KrjDqwlhUwX1HcFJM3MIH9xAg5Q9LWhqG5AdLWp1JS6dxbUtBiZ15p1cKaOxDAUwUUPBn1vGfy7oByXy1w1SuH_dnltV-eqA3KdmFfSDt1jeZTDtxwAbdzeryK7EvlXC-SHAwHxjZr_S8er3tiMaO0Cd-LamX-TVewHWSfVoR1yStPrcO3n_tkjANrp-kJLm1LwE33xJJ005Ol0O3ZbGkELcatiZ7BG1U33bHmpqWexwxYSkZajWcQPhaOe3J0fsBwXR-kmLYOb4gOGE7Pu_0nMkpLEzaTM05dNgJKZkeBUtAtV_WpzLuS6U9Kg8-EwrapH8J-FiQ5RpX4PrSRh-BKMU8i1pMLR4dvfK6szrsjthHeZ9MGHLi9vnzKCt0abHgWXpTEmUqX31MrZWYki9EoEL5OgCOfS4MKpghucSCvTgDO6ShjjSxFCUndaBFO-rOjqdh8GxrNnFWnE8c2fpxLgQTiiKtg4fLWbetVHGhlhnLkAoNSBLC4mddY65Xx8fBm6M9NuA90rBk6aLxoE-WwhEYIWmrpwz25JUZKwwdBlaqi_xQUTaZV9GwL19xeo7eOd7xtCw=w1264-h948-no?authuser=0"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <div class="story-text">
+        <p>
+          A babbling river beside you, ice cold snow melt free after a winter
+          frozen in captivity, rushing down the mountain as if there will be no
+          tomorrow. That’ll be you later. First, I compete against myself and
+          against the hill, not others. Every passing year is a vain (in both
+          senses of the word) fight against time, decay and deterioration. Age
+          is not kind to the hill climber. VO2max declines by 1% every year, our
+          maximum heart rate slows, our muscles weaken and recovery takes
+          longer. mountain as if there will be no tomorrow. That’ll be you
+          later. First, I compete against myself and against the hill, not
+          others. Every passing year is a vain (in both senses of the word)
+          fight against time, decay and deterioration. Age is not kind to the
+          hill climber. VO2max declines by 1% every year, our maximum heart rate
+          slows, our muscles weaken and recovery takes longer.
+        </p>
+      </div>
+      <div class="row">
+        <img
+          class="gridImg"
+          alt=""
+          src="https://lh3.googleusercontent.com/QnSp635PmaCw1K1iAm3rf1whvLSAg7yquoV5U7axnRThzn3g7YJEcAM-qsnRRTHc3qDKBuUFzra87E5LP78UjRFNUgmyZoG9YkswZ4Hs_ucE9lGUHu3PXbg7Gnzq2OZstLEoDi9lO3rg8W4XruucWvTPRBOR35h3Rx-DrsDmzy1T3yJgxdkGgRHFeqxF3uyB7imYEuyZ2gNqgvQwoff-r_E7VIIlkL4UvutVBYrhR3EUokVvC4Q0jYz1a5KSqSelWZpzf0Sp7yoPw6Z200Xpu7AG5iV4momR05RlbnsLgBj6lM2Np1pSh_Bsfsk0Ir0O96wjR0PomYC-ZI_BitgSmeyWpYEngR7O7fHTGPhJ99P5ElQo83m5P2lhwQ_btUCCkgfsg5OE4I8phW7rwS0dBTBn09paQZ73E0WqZKShtHtInJVWwDGPzEi0n9edEUD0GmBVth5wSS90rpauM9cWoYpAqrzE4bV_Oqlcz-Lw8chDleU5JpYaYpRIKr4Km318ULv7oXM0Hi11Euksq-xYMML8SDAEaivhkd7OgKG27XRmfYzaYyLZ_93RjQ7AfW6BGIFEZ657GXGDTLJ_e3WKFSPmMQh8J-azBsNQN17KgEasgFU8BrDCcyls_y-pGBITX7dnj_pj803HdemkgUD2h6nnKSX05oRuCPHGxJPhO8b3mwdxDQzT609gF_jXIO7CKEv9pvVoUDNhnIL3AZdhGOs=w1264-h948-no?authuser=0"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="story-text">
+        <p>
+          A babbling river beside you, ice cold snow melt free after a winter
+          frozen in captivity, rushing down the mountain as if there will be no
+          tomorrow. That’ll be you later. First, I compete against myself and
+          against the hill, not others. Every passing year is a vain (in both
+          senses of the word) fight against time, decay and deterioration. Age
+          is not kind to the hill climber. VO2max declines by 1% every year, our
+          maximum heart rate slows, our muscles weaken and recovery takes
+          longer. mountain as if there will be no tomorrow. That’ll be you
+          later. First, I compete against myself and against the hill, not
+          others. Every passing year is a vain (in both senses of the word)
+          fight against time, decay and deterioration. Age is not kind to the
+          hill climber. VO2max declines by 1% every year, our maximum heart rate
+          slows, our muscles weaken and recovery takes longer.
+        </p>
+      </div>
+    </section>
+    <footer class="footer"></footer>
+    <script
+      src="https://kit.fontawesome.com/cdb72060c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="sidebar.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="footer.js"></script>
+  </body>
+</html>
