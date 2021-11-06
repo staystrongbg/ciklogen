@@ -1,3 +1,3 @@
 # live preview
 
-awesome-mountain.surge.sh
+https://awesome-mountain.surge.sh
